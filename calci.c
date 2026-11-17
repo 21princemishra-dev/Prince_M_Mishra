@@ -7,7 +7,7 @@ char op;
 printf("enter the value");
 scanf("%d %d",&a,&b);
 printf("enter the operator(+,-,*,/):");
-scanf("%c",&op);
+scanf(" %c",&op);
 switch(op)
 {
 case '+':
